@@ -7,7 +7,7 @@ const Header = () => {
     const activeStyle = "text-orange-500 underline font-playfair";
 
     return (
-        <div className="flex justify-center items-center sm:sticky sm:top-0 p-5">
+        <div className="flex justify-center items-center w-full z-50 p-6">
             <nav className=" sm:py-4 mt-5 mx-auto flex flex-col sm:flex-row flex-wrap justify-between items-center gap-4 py-3 px-4 bg-zinc-900/70 outline-white outline-1 rounded-lg shadow-md">
             
             <div className="flex justify-between items-center w-full sm:w-auto">
