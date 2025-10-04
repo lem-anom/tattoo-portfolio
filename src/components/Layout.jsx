@@ -9,7 +9,7 @@ const Layout = () => {
 
     return (
         <div className={`relative h-screen w-screen bg-cover bg-center transition-all duration-500
-        ${isAboutPage ? "bg-[url('/aboutImage.jpg')]" : "bg-[url('homepageTattoo.jpg')]"}
+        ${isAboutPage ? "bg-[url('/aboutImage.jpg')]" : "bg-[url('/homepageTattoo.jpg')]"}
         `}>
             <Header />
             <main className="relative z-10">
